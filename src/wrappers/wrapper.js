@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name BIT-Moodle-Enhance
 // @namespace https://github.com/fky2015/
-// @version 0.1.4
+// @version 0.1.5
 // @description provide mordern theme design for moodle system.
 // @author FKYnJYQ
 // @grant GM_addStyle

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name BIT-Moodle-Enhance
 // @namespace https://github.com/fky2015/
-// @version 0.1.4
+// @version 0.1.5
 // @description provide mordern theme design for moodle system.
 // @author FKYnJYQ
 // @grant GM_addStyle
@@ -86,6 +86,7 @@ header,
 
 button,
 input,
+select,
 .navbar .btn-navbar {
   background: var(--main-bg-color) !important;
   border: 1px solid var(--main-fg-color) !important;
@@ -270,8 +271,25 @@ table.flexible tbody > tr:nth-child(odd) > th,
   margin-left: 0px;
 }
 
-#dock .dockedtitle {
-  background: var(--main-bg-color);
+#dock .dockedtitle,
+.calendar-event-panel,
+.block .calendar-event-panel .yui3-overlay-content,
+.path-calendar .maincalendar .eventlist * {
+  background: var(--main-bg-color) !important;
+  background-color: var(--main-bg-color);
+}
+
+.block .calendar-event-panel {
+  border: none;
+}
+.block .calendar-event-panel .yui3-overlay-content,
+.path-calendar .maincalendar .eventlist * {
+  box-shadow: none;
+  border-color: var(--main-fg-color);
+}
+
+.calendar_event_course {
+  background-color: var(--main-selection-color);
 }
 
 #dock .dockedtitle .css3transform {
