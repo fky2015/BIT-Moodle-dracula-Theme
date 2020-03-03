@@ -110,7 +110,8 @@ div.backup-section + form,
 }
 
 .generaltable tbody > tr:nth-child(odd) > td,
-.forumpost {
+.forumpost,
+#newmessageoverlay {
   background: var(--main-bg-color);
 }
 
