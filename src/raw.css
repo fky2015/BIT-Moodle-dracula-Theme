@@ -356,6 +356,31 @@ li {
   line-height: inherit;
 }
 
+/* file manager */
+.ffilemanager * {
+  background: var(--main-bg-color) !important;
+}
+
+.moodle-dialogue-base .moodle-dialogue-wrap *,
+.moodle-dialogue-base .moodle-dialogue-wrap {
+  background: var(--main-bg-color) !important;
+}
+
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd,
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd {
+  text-shadow: none;
+}
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-bd {
+  color: var(--main-fg-color);
+}
+.moodle-dialogue-base .moodle-dialogue-wrap {
+  border: none;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+div.filemanager-loading > img {
+  display: none;
+}
 /* 课程 */
 .coursebox {
   border: 1px solid var(--main-gap-color);
